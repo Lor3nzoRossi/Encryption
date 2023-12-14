@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
-    // istanziare un oggetto scanner per prendere successivamente l'input
-    // dall'utente
+    // istanziare un oggetto scanner per prendere successivamente l'input dall'utente
     Scanner scanner = new Scanner(System.in);
     String chiave = "KEY";
     // istanziare la matrice
