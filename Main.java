@@ -20,7 +20,7 @@ class Main {
     Thread t2 = new Thread(v2);
     Thread t3 = new Thread(v3);
     Thread t4 = new Thread(v4);
-    
+
    // avvio dei thread
     t1.start();
     t2.start();
@@ -39,10 +39,11 @@ class Main {
 
     System.out.println("Inserisci il testo in chiaro da cifrare: ");
     String testoInChiaro = scanner.nextLine();
+    scanner.close();
 
     String testoCifrato = m.cifra(testoInChiaro);
 
     System.out.println("Il testo cifrato è: " + testoCifrato);
-
+    
   }
 }
